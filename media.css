@@ -1,0 +1,1100 @@
+/*media*/
+
+@media screen and (max-width:1500px){
+
+
+
+.call_doctor{
+        display: block;
+                width: 100%;
+                height: auto; /* Убираем фиксированную высоту */
+                flex-direction: column;
+                margin-top: 0px;
+                background-color: #F1F8FD;
+    }
+    .call_left{
+        display: flex;
+                width: 100%; /* Меняем фиксированную ширину на 100% */
+                max-width: 1600px;
+                justify-content: center; /* Центрируем содержимое */
+       
+    }
+    .call_left_description {
+    padding-top: 40px;
+    margin-top:0px;
+    width: 300px;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.call_right {
+    width: 100%;
+    height: 260px;
+    margin-top: 145px;
+}
+.call_center{
+    height: 370px;
+    max-width: 256px;
+    
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    left:40%;
+}
+.call_left_description_h1 {
+    
+    font-size: 34px;
+    line-height:40px;
+    
+}
+.call_left_ul li{
+  
+    font-size: 14px;
+    line-height: 20px;
+}
+.call_doctor_b1{
+    width: 300px;
+    height: 50px;
+}
+.call_doctor_b2{
+    width: 300px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.section2_main{
+    margin-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.section2_main h1{
+    font-size: 30px;
+    line-height: 35px;
+}
+.cards{
+    grid-template-columns: repeat(2,1fr);
+}
+}
+
+@media screen and (max-width:900px){
+.header_burger{
+    width: 26px;
+    height: 16px;
+    position: absolute;
+    right: 19px;
+    top:20px;
+    display: block;
+}
+.burger_line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #0DA3FF;
+    position: absolute;
+    left: 0px;
+}
+.burger_line_first{
+    top:0px;
+}
+.burger_line_second{
+    top:50%;
+    transform: translateY(-50%);
+}
+.burger_line_third{
+    bottom: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left: 0;
+    background-color: #fff;
+    z-index: 4;
+    transform: translateX(-100%);
+    transition: 0.2S linear;
+}
+.header_active{
+    transform: translateX(0);
+}
+.header_ul{
+    display: block;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.header_li{
+    margin-left: 0px;
+    margin-top: 15px;
+}
+.header_a {
+    font-size: 16px;
+    line-height: 25px;
+}
+.header_li:first-child{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.header_list_img{
+    position: fixed;
+    top:0px;
+    left: 0;
+    height: 29px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+#header_list2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 55px;
+    width: 100%;
+}
+.header_work_phone2{
+    position: absolute;
+    right: 0;
+    margin-right: 56px;
+    margin-top: 10px;
+}
+.header_list_img2{
+    
+    height: 29px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.header_work_phone{
+position: absolute;
+    top:0px;
+    right: 0;
+    margin-right: 56px;
+    margin-top: 10px;
+}
+
+#header_phone{
+
+    font-size: 13px;
+    line-height: 20px;
+}
+#header_work{
+
+    font-size: 11px;
+    line-height: 15px;
+}
+.header_nav{
+
+    position: fixed;
+    background-color: #F1F8FD;
+    top:55px;
+    height: 100%;
+    width: 100%;
+}
+
+.header_secret_number{
+    display: block;
+    margin-left: 10px;
+    position: fixed;
+    bottom: 85px;
+}
+#header_phone1{
+    color: #0DA3FF;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style:normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+#header_work1{
+    color: #3838388C;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style:normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+.header_button{
+    position: fixed;
+  left: 50%;
+transform: translate(-50%, 50%);
+  bottom: 30px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 50px;
+  font-size: 14px;
+}
+
+.header_burger_close{
+    position: absolute;
+    right: 17px;
+    top: 17px;
+    width: 22px;
+    height: 22px;
+    
+}
+.burger_line_close{
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #0DA3FF;
+    position: absolute;
+    top:50%;
+    
+}
+.burger_line_close1{
+    transform: translateY(-50%)rotate(45deg);
+}
+.burger_line_close2{
+    transform: translateY(-50%)rotate(-45deg);
+}
+.cards{
+    grid-template-columns: repeat(1,1fr);
+    grid-gap:10px
+}
+.card{
+    width: 300px;
+    height: 375px;
+    border-radius: 15px;
+}
+.card img{
+    margin: 5px 5px 0px;
+    width: 290px;
+    height: 167px;
+    border-radius: 10px;
+}
+.card h3 {
+    
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.card p {
+    max-width: 260px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.work_doctor_buttons {
+    
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+}
+.work_doctor_b{
+    width: 260px;
+    display: flex;
+}
+.work_doctor_b1{
+    display: flex;
+    align-items: center;
+    
+    height: 50px;
+    width: 150px;
+    font-size: 14px;
+    line-height: 20px;
+    
+    padding-left: 20px;
+}
+.work_doctor_b2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.steps_healing{
+    margin-top:70px;
+    max-width: 300px;
+    font-size: 30px;
+    line-height: 35px;
+}
+.steps_healing h3{
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.step_healing{
+    display: block;
+    margin-top: 25px;
+}
+#step_hr{
+    display: none;
+}
+.step_up h3{
+    margin-top: auto;
+    margin-bottom: auto;
+    position: absolute;
+    font-size: 38px;
+    line-height: 40px;
+    right: 0px;
+    font-variant-numeric: tabular-nums;
+    letter-spacing:0%;
+}
+.step_down p{
+    margin-top: 0px;
+    width: 151px;
+    font-size: 14px;
+}
+.step_down img{
+    margin-top: 0px;
+    margin-bottom: 45px;
+    width: 40px;
+}
+.one_step::before {
+    content: " ";
+  background-color: #0DA3FF;
+  width: 0px;
+  height: 0px;
+  /* линия смещена на 10px справа от текста*/
+  left: 0px;
+  top:125px;
+  /* включаем абсолютное позиционирование относительно блока с relative */
+  position: absolute
+}
+.section4{
+    margin-top: 70px;
+    overflow-x: hidden;
+}
+.about_clinic{
+    padding-top: 70px;
+    flex-direction: column-reverse;
+    justify-content: none;
+}
+.about_clinic_left{ 
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.about_clinic_left h3{
+    font-size: 30px;
+    line-height: 35px;
+}
+#about_clinic_left_p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 300px;
+}
+.about_clinic_div:first-child{
+    margin-top: 20px;
+}
+.about_clinic_right_all{
+    
+    width: 525px;
+    height: 200px;
+    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about_clinic_right_img{
+    width: 260px;
+    height: 200px;
+    background-size: cover;
+    
+}
+.about_clinic_right_img2 {
+    width: 260px;
+    height: 200px; 
+    max-width: 100%;
+    object-fit: contain;
+    background-size: cover;
+    margin-left: 5px;
+}
+.about_clinic_right_img3{
+    display: none;
+}
+.about_clinic_buttons{
+    display: none;
+}
+ .slide-active {
+            transform: none;
+}
+        
+.slide-prev {
+            transform: none;
+}
+        
+.slide-next {
+            transform: none;
+}
+.section4_hr {
+    margin-top: 25px;
+    width: 500px;
+}
+.documents {
+    margin-top: 20px;
+    max-width: 300px;
+    
+}
+.documents h3 {
+
+    font-size: 18px;
+    line-height: 25px;
+}
+.documents_main {
+
+    margin-top: 15px;
+}
+.documents_main_img {
+    
+    width: 200px;
+    margin-left: 20px;
+}
+.documents_main_img:first-child {
+    margin-left: 0px;
+}
+.documents_main_img img{
+    width: 200px;
+    height: auto; 
+}
+
+/*section5*/
+
+.section5{
+    overflow-x: hidden;
+}
+.about_person{
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.about_person_buttons{
+    display: none;
+}
+.about_person_left h3{
+    order: 1;
+    font-size: 30px;
+    line-height: 35px;
+}
+.about_person_right {
+    order: 2;
+    margin-top: 25px;
+    
+}
+.about_person_left{
+    display: contents;
+}
+.about_person_bio{
+    order: 3;
+    margin-top: 345px;
+    width: 280px;
+    height: 135px;
+}
+.about_person_img1 {
+    background-size: cover;
+    height: auto;
+    width: 314px;
+}
+.about_person_img2 {
+    height: auto;
+    width: 314px;
+    margin-left: -30px;
+}
+.about_person_img3{
+    height: 392px;
+    width: auto;
+    margin-left: -30px;
+}
+
+.about_person_right_abs{
+    
+    left: -16px;
+}
+.about_person_bio_p {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.about_person_bio_p1{
+    font-size: 14px;
+    line-height: 20px;
+}
+.about_person_bio_p2{
+    font-size: 14px;
+    line-height: 20px;
+}
+.about_person_bio h5{
+    font-size: 18px;
+    line-height: 25px;
+    
+    margin-left: 20px;
+
+    padding-top: 15px;
+}
+/*section6*/
+.advantage_calling {
+    margin: 70px auto;
+    max-width: 300px;
+    
+}
+.advantage_calling_up {
+    flex-direction: column;
+}
+.advantage_calling_up_img {
+    width: 300px;
+}
+.advantage_calling_up_text_h3{
+    font-size: 30px;
+    line-height: 35px; 
+    margin-top: 25px;  
+}
+.advantage_calling_up_text {
+    margin-left: 0px;
+}
+.advantage_calling_up_text_p{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.advantage_calling_down{
+    flex-direction: column;
+}
+.advantage_calling_doctor{
+    margin-top: 25px;
+}
+.advantage_calling_doctor_h4 {
+
+    font-size: 18px;
+    line-height: 25px;
+}
+.advantage_calling_doctor_p1{
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 20px;   
+}
+.advantage_calling_doctor_p{
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.advantage_calling_down{
+    margin-top: 35px;
+    height: 550px;
+    flex-direction: column;
+}
+.advantage_calling_down_left_all{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-right: 23px;
+}
+.advantage_calling_down_left_h1{
+    font-size: 24px;
+    line-height: 30px;
+}
+.advantage_calling_down_left_p1{
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 20px; 
+}
+.advantage_calling_down_left_p2{
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 20px;   
+}
+.advantage_calling_down_right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.advantage_calling_down_right_1{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.advantage_calling_down_right_i1{
+    width: 260px;
+    height: 50px;
+    
+}
+.advantage_calling_down_right_i2{
+    width: 260px;
+    height: 50px;
+    border-radius: 32px;
+
+    margin-left: 0px;
+    margin-top: 15px;
+}
+.advantage_calling_down_right_i1::placeholder { 
+    font-size: 14px;
+    line-height: 20px;
+}
+.advantage_calling_down_right_i2::placeholder { 
+
+    font-size: 14px;
+    line-height: 20px;
+}
+.advantage_calling_down_right_b{
+    height: 50px;
+    width: 260px;
+    
+    font-size: 14px;
+    line-height: 20px;
+
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.advantage_calling_down_right_p{
+
+    font-size: 14px;
+    line-height: 25px;
+
+    margin-top: 15px;
+    margin-left: 20px;
+    max-width: 260px;
+}
+.advantage_calling_down_right_span{
+
+    font-size: 14px;
+    line-height: 25px;
+
+}
+.questions{
+    margin-top: 70px;
+    max-width: 300px;
+    margin-bottom: 70px;
+}
+.questions_h3 {
+    max-width: 500px;
+    font-size: 30px;
+    line-height: 35px;
+    
+}
+.questions_all{
+    flex-direction: column;
+    
+}
+.questions_card:first-child{
+    height: 305px;
+}
+.questions_card{
+    margin-top: 10px;
+    height: 70px;
+}
+.questions_card_h3{
+    font-size: 16px;
+    line-height: 20px;
+    width: 232px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.questions_card_p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-bottom: 28px;
+}
+.questions_blueline{
+    right: 15px;
+    width: 18px;
+}
+.questions_plus{
+    top: 26px;
+    right: 15px;
+    height: 18px;
+    width: 18px;
+}
+.questions_right{
+   display: flex;
+   flex-direction: column;
+    width: auto;
+    margin-left: 0px;
+    margin-top: 20px;
+    padding-right: 20px;
+    height: 400px;
+    max-width: 300px;
+}
+.questions_right_h3{
+
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.questions_right_inputs{
+    margin-right: 20px;
+    
+}
+.questions_right_i1 {
+    
+    height: 50px;
+    width: 260px;  
+    margin-left: 20px;
+    margin-top: 15px;
+    
+}
+.questions_right_i2 {
+    width: 260px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 20px;
+    
+    
+}
+.questions_right_button{
+    width: 260px;
+    margin-top: 15px;
+    
+    height: 50px;
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.questions_right_p{
+    width: auto;
+    margin-left: 20px;
+    max-width: 700px;
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.feedback_all{
+    display: contents;
+}
+.feedback_all_h3{
+    order: 1;
+ 
+    font-size: 30px;
+    line-height: 35px;
+}
+.feedback_down{
+    order: 2;
+    
+    margin-top: 25px;
+}
+.feedback_buttons{
+    order: 3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.feedback_card1{
+    width: 300px;
+    height: 365px;
+}
+.feedback_card2{
+    display: none;
+}
+.feedback_card_img{
+    display: none;
+}
+.feedback_text{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.feedback_card_h3{
+
+    font-size: 16px;
+    line-height: 30px;
+}
+.feedback_card_p{
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.feedback_card_a{
+
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.feedback_card_hr{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    height: 1px;
+    background-color: #DDEBF4;
+    max-width: 520px;
+    bottom: 55px;
+}
+.feedback_card_date{
+    
+    left: 20px;
+    bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.section9{
+
+    height: 735px;
+    
+}
+.any_questions_center{
+    height: 735px;
+    width: 320px;
+}
+.any_questions_center1{
+    display: none;
+}
+.any_questions_center2{
+    height: 735px;
+    width: 320px;
+}
+.any_questions_left{
+    width: calc(100% - 300px);
+    min-width: 10px;
+}
+.any_questions_left1{
+    background-color: #0095F1;
+    height: 735px;
+    
+}
+.any_questions_left2{
+    height: 130px;
+    background-color: red;
+}
+.any_questions_right{
+    width: calc(100% - 300px);
+    min-width: 10px;
+}
+.any_questions_right1{
+    background-color: #0095F1;;
+    height: 735px;
+}
+.any_questions_right2{
+    height: 130px;
+    
+}
+.section9_img{
+    width: 251px;
+    height: auto;
+}
+.any_questions_text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 375px;
+}
+.any_questions_input{
+    display: contents;
+}
+.any_questions_text_down{
+    display: contents;
+}
+.any_questions_text_h3{
+    margin-left: 10px;
+    
+    font-size: 30px;
+    line-height: 35px;
+}
+.any_questions_text_p{
+margin-left: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.any_questions_i1{
+    margin-top: 25px;
+    width: 300px;
+    height: 50px;
+}
+.any_questions_i2{
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 300px;
+    height: 50px;
+}
+.any_questions_button{
+    height: 50px;
+    width: 300px;
+    margin-top: 15px;
+}
+.any_questions_down_p{
+    width: 298px;
+    margin-left: 0px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.any_questions_down_span{
+    white-space: nowrap
+}
+.section9_img{
+    right: 34px;
+}
+.any_questions_center3{
+    height: 130px;
+    width: 320px;
+    background-color: #0084D6;
+    position: absolute;
+    
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+}
+.any_questions_left3{
+    height: 130px;
+   background-color: #0084D6;
+}
+.any_questions_right3{
+    height: 130px;
+   background-color: #0084D6;
+}
+
+.footer_up_center{
+    max-width: 100%;
+}
+.footer_up_p{
+    text-align: center;
+}
+/*modals*/
+.modal_main{
+    
+    width: calc(100%-20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    
+}
+.modal_inside{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.modal_inside_h3{
+
+    font-size: 30px;
+    line-height: 35px;
+    
+}
+.modal_inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.modal_input1{
+    width: 100%;
+    height: 50px;
+
+}
+.modal_input2{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 0px;
+    
+}
+.modal_down{
+    display: block;
+}
+.modal_inside_p{
+    width: auto;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.modal_input1::placeholder{
+    font-size: 14px;
+    line-height: 20px;
+}
+.modal_input2::placeholder{
+    font-size: 14px;
+    line-height: 20px;
+}
+.modal_button{
+    height: 50px;
+    width: 100%;
+
+    font-size: 14px;
+}
+.modal_text{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+.modal_close{
+    position: absolute;
+    right: 0px;
+    top: -33px;
+    width: 18px;
+    height: 18px;
+}
+.span_modal1{
+    background-color: #FFFFFF;
+}
+.span_modal2{
+    background-color: #FFFFFF;
+}
+/*modal2*/
+.feedback_modal_p2{
+    display: none;
+}
+.feedback_modal_p{
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.modal_main2{
+    width: calc(100%-20px);
+    height: 345px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    
+}
+.feedback_modal_hr{
+    left: 20px;
+    right: 20px;
+    bottom: 55px;
+}
+.feedback_text_modal{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.feedback_card_date{
+    left: 20px;
+    bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.modal_close2{
+    position: absolute;
+    right: 0px;
+    top: -33px;
+    width: 18px;
+    height: 18px;
+}
+}
+@media screen and (max-width:500px){
+.call_center{
+    left:10%
+}
+.section4_hr {
+    width: 300px;
+}
+
+.about_clinic_right_all{
+    width: 525px;
+    height: 200px;
+    overflow: visible;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+
+}
